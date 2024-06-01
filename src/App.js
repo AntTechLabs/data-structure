@@ -27,7 +27,7 @@ class App extends Component{
         {
           route === 'all' ? <AllCards onRouteChange={this.onRouteChange} route={route}/>
             : route === 'home' ? <Home /> 
-            : this.state.route === 'about' ? <About />
+            // : this.state.route === 'about' ? <About />
             : <Route route={route} onRouteChange={this.onRouteChange}/>
         }
       </div>
